@@ -1,0 +1,16 @@
+/*<ScrollView> 
+          {this.state.allTransactions.map((transaction,index)=>{
+
+            return(
+              <View key={index} style={{backgroundColor:'#C6FFFB',borderBottomWidth:2}}> 
+               <Text>{"BOOKID:"+transaction.bookId}</Text>
+               <Text>{"STUDENTID:"+transaction.studentId}</Text>
+               <Text>{"Date:"+transaction.data.toDate()}</Text>
+               <Text>{"Transaction Type:"+transaction.transactionType}</Text>
+
+              </View>
+            )
+          })
+          }
+        </ScrollView>
+        */
